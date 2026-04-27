@@ -15,7 +15,7 @@
 - Для временного слота: `start_time` < `end_time`; `pair_number` > 0; комбинация (`schedule_id`, `pair_number`) уникальна.
 - Для расписания: комбинация (`external_building_id`, `day_of_week_id`, `is_shortened`) уникальна.
 - `external_building_id` заполняется заглушкой (допустимые значения 1–10).
-- `day_of_week_id` должен существовать в таблице `DayOfWeek` (1..7).
+- `day_of_week_id` должен существовать в таблице `DayOfWeek`.
 
 #### Создание временного слота
 
