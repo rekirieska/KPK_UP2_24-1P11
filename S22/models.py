@@ -1,4 +1,4 @@
-"""Timeslot Service — без отдельной таблицы дней недели"""
+"""Timeslot Service"""
 
 from peewee import (
     AutoField,
