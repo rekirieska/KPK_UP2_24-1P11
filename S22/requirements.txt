@@ -1,1 +1,4 @@
 peewee
+datetime
+pydantic
+fastapi
